@@ -1,0 +1,76 @@
+*{margin: 0; padding: 0;
+}
+html,  body{height: 100%;
+}
+body{
+    background-color: white;
+    font-family: 'Forum';
+}
+.pinicio
+{
+    background-color: #FCD21E ;   
+     height: 100%;
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-top: 15%;
+    box-sizing: border-box;
+    border-bottom: solid 1px black;
+}
+.titulo{
+    text-align: center;
+    font-size: 4em;
+    color: black;
+}
+.pintermedia1{
+    height: 100%;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.bloque {
+    
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+}
+.texto,
+.img {
+    width: 50%;
+    height: 100%;
+}
+.texto{
+    background-color: #FCD21E;
+}
+.texto h2{
+    font-size:3em;
+    font-family: 'Poppins', sans-serif;
+    margin: 50px;
+}
+.blanco{
+    color: white;
+}
+.texto p{
+    margin: 50px ;
+    margin-right: 200px;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-size: 1.5em;
+   /*  border: solid red; */
+}
+.btn{
+    margin: 50px;
+    color: white;
+    background-color: #FCD21E;
+    padding: 1.5em;
+    border: solid white;
+    border-radius: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+.imagen{
+    width: 100%;
+    height: 100%;
+}
